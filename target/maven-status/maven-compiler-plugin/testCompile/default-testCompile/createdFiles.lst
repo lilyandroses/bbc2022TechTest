@@ -1,0 +1,3 @@
+io\testapi\cucumber\stepsdefinitions\bbcMusicStepdefs.class
+io\testapi\testbase\TestBase.class
+io\testapi\cucumber\TestRunner.class

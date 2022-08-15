@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Verify of Get call on Media EndPoint","Verify that the BBC  Music tracks application can be accessed by users","SUCCESS","2022-08-15T12:57:28.073+01:00[Europe/London]","0.0","6.7"
+"Verify of Get call on Media EndPoint","Verify that the BBC  Music tracks application  get call is under 1000 milliseconds","SUCCESS","2022-08-15T12:57:37.102+01:00[Europe/London]","0.0","0.72"
+"Verify of Get call on Media EndPoint","As  a user I should always presented with Music track id as not null or empty","SUCCESS","2022-08-15T12:57:37.930+01:00[Europe/London]","0.0","1.09"
+"Verify of Get call on Media EndPoint","As  a user I should always see segment_type value as music","SUCCESS","2022-08-15T12:57:39.101+01:00[Europe/London]","0.0","0.66"
+"Verify of Get call on Media EndPoint","As a user I should always see primary field not null or empty  under title_list","SUCCESS","2022-08-15T12:57:40.086+01:00[Europe/London]","0.0","0.67"
+"Verify of Get call on Media EndPoint","As a user I should see only one track  field now_playing is true from  list under offset","FAILURE","2022-08-15T12:57:40.898+01:00[Europe/London]","0.0","0.64"
+"Verify of Get call on Media EndPoint","As a user I should be present with date","SUCCESS","2022-08-15T12:57:41.820+01:00[Europe/London]","0.0","0.56"

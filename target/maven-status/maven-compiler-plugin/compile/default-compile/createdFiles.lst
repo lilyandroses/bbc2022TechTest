@@ -1,0 +1,6 @@
+io\testapi\model\BbcPojo.class
+io\testapi\utils\PropertyReader.class
+io\testapi\bbcinfo\BbcSteps.class
+io\testapi\utils\TestUtils.class
+io\testapi\constants\Path.class
+io\testapi\constants\EndPoints.class

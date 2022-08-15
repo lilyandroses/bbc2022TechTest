@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: io.testapi.cucumber.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 15.168 sec <<< FAILURE! - in io.testapi.cucumber.TestRunner
+Then Verify that only one track in the list has "now_playing" field in "offset" as true(Scenario: As a user I should see only one track  field now_playing is true from  list under offset)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Now_paying has true value more than one  expected:<1> but was:<14>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at io.testapi.cucumber.stepsdefinitions.bbcMusicStepdefs.verifyThatOnlyOneTrackInTheListHasFieldInAsTrue(bbcMusicStepdefs.java:80)
+	at ✽.Then Verify that only one track in the list has "now_playing" field in "offset" as true(bbc.feature:25)
+
+Scenario: As a user I should see only one track  field now_playing is true from  list under offset  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Now_paying has true value more than one  expected:<1> but was:<14>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at io.testapi.cucumber.stepsdefinitions.bbcMusicStepdefs.verifyThatOnlyOneTrackInTheListHasFieldInAsTrue(bbcMusicStepdefs.java:80)
+	at ✽.Then Verify that only one track in the list has "now_playing" field in "offset" as true(bbc.feature:25)
+

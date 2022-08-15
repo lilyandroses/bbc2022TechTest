@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Verify of Get call on Media EndPoint","As a user I should see only one track  field now_playing is true from  list under offset","FAILURE","2022-08-15T12:57:40.898+01:00[Europe/London]","0.0","0.64"
